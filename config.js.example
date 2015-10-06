@@ -1,0 +1,22 @@
+var path = require('path');
+
+var webpage  = 'http://example.com';
+var testpage = 'http://example2.com';
+
+module.exports = {
+  original: {
+    dest: path.resolve(__dirname, 'original'),
+    urls: {
+      index: webpage
+    }
+  },
+
+  modified: {
+    dest: path.resolve(__dirname, 'modified'),
+    urls: {
+      index: testpage
+    }
+  },
+
+  diffPath: path.resolve(__dirname, 'diff')
+};

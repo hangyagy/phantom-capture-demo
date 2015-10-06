@@ -1,0 +1,16 @@
+{
+  "name": "phantom-screen",
+  "version": "1.0.0",
+  "description": "Take screenshot from a page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "lodash": "^3.10.1",
+    "url-to-screenshot": "^0.6.0"
+  }
+}
